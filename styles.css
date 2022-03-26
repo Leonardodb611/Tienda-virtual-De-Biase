@@ -14,6 +14,16 @@ header{
     margin-bottom: 2%;
     align-items: center;
 }
+
+.movimiento:hover{
+    box-shadow: 5px 5px 3px  #999;
+    transform: translate(3px, 3px);
+    border-radius: 30%;   
+}
+
+
+
+
 .header{
 
     display: grid;
@@ -32,6 +42,13 @@ header{
     flex-wrap: wrap;
     
 }
+
+main a:hover{
+    text-decoration: underline
+}
+
+
+
 
 .headerimg{
     width: 25%;
@@ -148,7 +165,7 @@ footer{
 
 
 .bodyimg{
-    width: 40%;
+    width: 65%;
     
 }
 
