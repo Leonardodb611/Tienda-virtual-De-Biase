@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgba(199, 199, 199, 0.582);
+    background-color: rgba(116, 116, 116, 0.582);
     border-style: solid;
     border-left: none;
     border-right: none;
@@ -26,12 +26,12 @@ header{
 
 .header{
 
-    display: grid;
-    grid-area: 2 1;
-    grid-template-columns:  30% 70%;
-    grid-template-rows: 10vh;
-    font-size: 200%;
+
     align-items: center;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    
+    
 
 }
 
@@ -94,8 +94,9 @@ footer{
     border-left: none;
     border-right: none;
     border-width: 1px;
-    background-color: rgba(199, 199, 199, 0.575);
+    background-color: rgba(116, 116, 116, 0.582);
     text-align: center;
+    margin-top: 1%;
 }
 
 
@@ -373,3 +374,13 @@ footer{
     
 }
 
+
+
+.img{
+    height: 50vh;
+    width: 50vh;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
