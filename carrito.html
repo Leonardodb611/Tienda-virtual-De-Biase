@@ -4,73 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Celumarket</title>
 </head>
 
-
-
-
+    
 <body>
-
     <header>
         
-        <nav>
-    
-            <div class="header">
-    
-                <div><img src="images\tienda-online-que-puede-hacer.png" alt="" class="headerimg" ></div>
-                
-                <div class="encabezado">
-                    <div class="movimiento"><a href="index.html">Inicio</a></div>
-                    <div class="movimiento"><a href="productos.html">Productos</a></div>
-                    <div class="movimiento"><a href="contacto.html">Contacto</a></div>
-                    <div class="movimiento"><a href="registro.html">Registro</a></div>
-                    <div class="movimiento"><a href="inicio-sesion.html">Inicio sesion</a></div>
-                    <div class="movimiento"><a href="carrito.html">Carrito</a></div>   
-                </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light  border border-dark border-2">
+
+            <div class="container-fluid">
+                <img src="images\tienda-online-que-puede-hacer.png" alt="" width="" height="100" class="d-inline-block align-text-top headerimg">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inicio-sesion.html">Iniciar sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-    
-        </nav>
-    
+          </nav>
+
+          
+
     </header>
 
     <main>
 
         <H1 class="letraGrande">Carrito de su compra.</H1>
 
-        <div class="centrado"><img src="images\carrito.jpg" alt="carrito" class="carrito"></div>
         
-        
-            <div class="caja2">
-                
-                
-                        <div>
-                            <div>Telefono samsung ($15000 C/U)</div>
-                            <div> Cantidad:<input type="number" name="Cantidad" id=""></div>                       
-                        </div>
-                    
-                        <div>
-                            <div>Cargador ($1000 C/U)</div>
-                            <div><input type="number" name="Cantidad" id=""></div>                       
-                        </div>
-                    
-                        <div>
-                            <div>Funda ($500 C/U)</div>
-                            <div>Cantidad:<input type="number" name="Cantidad" id="""></div>                       
-                        </div>
-                    
-                    
-
-                    
-                        <div>
-                            <div><h3>TOTAL DE SU COMPRA: $16500</h3></div>
-                            <div><input type="button" value="ABONAR CON TARJETA" class="botonGrande"><input type="button" value="ABONAR CON EFECTIVO" class="botonGrande"></div>                       
-                        </div>
-                    
-                
+    <div class="conteiner border border-dark border-2 bordes agrandar bordes" style="margin-left: 20%; margin-right: 20%;">
+                <div class="col">
+                    <div class="p-3 " style="padding: 3%;">   
+                        
+                            <div style="padding: 1%;" class="centrado"><img src="images\carrito.jpg" alt="carrito" class="carrito"></div>
+                            <ul>
+                            <div style="padding: 1%;">
+                                <div>Telefono samsung ($15000 C/U)</div>
+                                                       
+                            </div>
+                        
+                            <div style="padding: 1%;">
+                                <div>Cargador ($1000 C/U)</div>
+                                                       
+                            </div>
+                        
+                            <div style="padding: 1%;"> 
+                                <div>Funda ($500 C/U)</div>
+                                                       
+                            </div>
+                            </ul>
+                        
+    
+                        
+                            <div style="padding: 1%;">
+                                <div><h3>TOTAL DE SU COMPRA: $16500</h3></div>
+                                <div><input type="button" value="ABONAR CON TARJETA" class="btn btn-outline-secondary"><input type="button" value="ABONAR CON EFECTIVO" class="btn btn-outline-secondary"></div>                       
+                            </div>
+                        
+                    </div>
+                </div>
             </div>
-        
     </main>
 
     
@@ -80,9 +96,9 @@
         <P>DERECHOS DE LEONARDO DE BIASE</P>
     
     </footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 
 
 </html>

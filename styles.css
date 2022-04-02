@@ -51,8 +51,8 @@ main a:hover{
 
 
 .headerimg{
-    width: 25%;
-    height: 100%;
+    width: 200px;
+    
     justify-self: start;  
     
 }
@@ -345,9 +345,7 @@ footer{
         padding: 1%;
     }
 
-    .headerimg{
-        width: 90%;
-    }
+    
 
     .cajon_ventas2{
         flex-wrap: nowrap;
@@ -389,3 +387,4 @@ footer{
     border-radius: 5%;
     background-color: rgba(199, 199, 199, 0.575);
 }
+
