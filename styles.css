@@ -381,15 +381,13 @@ footer{
 .carousel-item {width: 60%;
 }
 .img{
-        height: 362px ;
-        width: 500px;
+        
+        width: 20%;
         padding-bottom: 50px;
         padding-top: 10px;
         padding-left: 10%;
         padding-right: 10%;
-}
-
-
+} 
 .btn{
     background-color: rgba(199, 199, 199, 0.911);
     font-weight: bold;
