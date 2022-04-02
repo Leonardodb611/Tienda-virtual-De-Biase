@@ -96,7 +96,7 @@ footer{
     border-width: 1px;
     background-color: rgba(116, 116, 116, 0.582);
     text-align: center;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 
@@ -379,8 +379,8 @@ footer{
 
 
 .img{
-    height: 50vh;
-    width: 50vh;
+    height: 20vh;
+    width: 20vh;
     padding-bottom: 50px;
     padding-top: 10px;
     padding-left: 10%;
