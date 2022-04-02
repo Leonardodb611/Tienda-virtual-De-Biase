@@ -51,8 +51,8 @@ main a:hover{
 
 
 .headerimg{
-    width: 200px;
-    
+    width: 150px;
+    height: 150px;
     justify-self: start;  
     
 }
