@@ -43,6 +43,7 @@ header{
     
 }
 
+
 main a:hover{
     text-decoration: underline
 }
@@ -51,15 +52,12 @@ main a:hover{
 
 
 .headerimg{
-    width: 200px;
+    width: 14%;
     
     justify-self: start;  
     
 }
 
-header img{
-    width: 14%;
-}
 
 a{
     text-decoration: none;
