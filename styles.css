@@ -381,8 +381,8 @@ footer{
 .carousel-item {width: 60%;
 }
 .img{
-        
-        width: 362px;
+        height: 362px ;
+        width: 500px;
         padding-bottom: 50px;
         padding-top: 10px;
         padding-left: 10%;
