@@ -43,7 +43,6 @@ header{
     
 }
 
-
 main a:hover{
     text-decoration: underline
 }
@@ -52,11 +51,12 @@ main a:hover{
 
 
 .headerimg{
-    width: 14%;
+    width: 200px;
     
     justify-self: start;  
     
 }
+
 
 
 a{
@@ -386,3 +386,6 @@ footer{
     background-color: rgba(199, 199, 199, 0.575);
 }
 
+.agrandar{
+    width: 100%;
+}
