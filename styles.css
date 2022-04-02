@@ -88,8 +88,7 @@ body{
 footer{
     display: flex;
     justify-content: center;
-    grid-template-columns: 100%;
-    grid-template-rows: 2vh;
+    height: 4vh;
     border-style: solid;
     border-left: none;
     border-right: none;
@@ -378,16 +377,7 @@ footer{
 
 
 
-.carousel-item {width: 60%;
-}
-.img{
-        
-        width: 20%;
-        padding-bottom: 50px;
-        padding-top: 10px;
-        padding-left: 10%;
-        padding-right: 10%;
-} 
+
 .btn{
     background-color: rgba(199, 199, 199, 0.911);
     font-weight: bold;
