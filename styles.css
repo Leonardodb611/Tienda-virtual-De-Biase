@@ -86,8 +86,8 @@ body{
 
 
 footer{
-    display: grid;
-    grid-area: 1 1;
+    display: flex;
+    justify-content: center;
     grid-template-columns: 100%;
     grid-template-rows: 2vh;
     border-style: solid;
@@ -371,7 +371,9 @@ footer{
         font-size: 10px;
     }
     
-    
+    .achicar{
+        font-size: 15px;
+    }
 }
 
 
@@ -383,4 +385,15 @@ footer{
     padding-top: 10px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.btn{
+    background-color: rgba(199, 199, 199, 0.911);
+    font-weight: bold;
+}
+
+
+.bordes{
+    border-radius: 5%;
+    background-color: rgba(199, 199, 199, 0.575);
 }
