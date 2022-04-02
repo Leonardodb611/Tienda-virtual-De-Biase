@@ -151,7 +151,7 @@ footer{
 
     text-align: center;
     font-size: 30px;
-    background-color: rgba(199, 199, 199, 0.575);
+    
     margin-top: 10px;
     margin-bottom:10px;
     margin-left: 30%;
@@ -159,9 +159,11 @@ footer{
     border-style: solid;
     border-width: 2px;
     align-content: center;
-    
+    padding-bottom: 10px;
+        
 
 }
+
 
 
 .bodyimg{
@@ -376,11 +378,10 @@ footer{
 }
 
 
-
-
 .btn{
     background-color: rgba(199, 199, 199, 0.911);
     font-weight: bold;
+    color: black;
 }
 
 
