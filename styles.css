@@ -15,37 +15,16 @@ header{
     align-items: center;
 }
 
-.movimiento:hover{
-    box-shadow: 5px 5px 3px  #999;
-    transform: translate(3px, 3px);
-    border-radius: 30%;   
-}
 
 
 
 
-.header{
 
 
-    align-items: center;
-    font-size: 1.1rem;
-    flex-wrap: wrap;
-    
-    
 
-}
 
-.encabezado{
-    display: flex;
-    justify-content: space-around ;
-    padding: 1%;
-    flex-wrap: wrap;
-    
-}
 
-main a:hover{
-    text-decoration: underline
-}
+
 
 
 
@@ -101,41 +80,7 @@ footer{
     list-style: none ;
 }
 
-.imput{
-    font-size: 30px;
-    width: 60%;
-}
 
-.boxlogin{
-    text-align: center;
-    font-size: 30px;
-    background-color: rgba(199, 199, 199, 0.575);
-    margin-top: 5%;
-    margin-bottom:5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    line-height: 150%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 2%;
-    
-}
-
-.textoGrande{
-    height: 25px; 
-    padding-top: 5px;
-    width: 250px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.textoGrande2{
-    height: 25px; 
-    padding-top: 5px;
-    width: 250px;
-    text-align: center;
-    font-size: 20px;
-}
 
 .filters li{
 
@@ -180,12 +125,7 @@ footer{
     
 }
 
-.bodyimg2{
-    width: 75%;
-    height: 75%;
-    padding-top: 1%;
-    
-}
+
 
 .caja{
     display: flex;
@@ -207,36 +147,9 @@ footer{
     
 }
 
-.cajaGrande{
-    font-size: 80%;
-    list-style: none ;
-    margin-top: 1%;
-    margin-bottom:0.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    line-height: 150%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 1%;
-    background-color: rgba(199, 199, 199, 0.575);
 
-}
 
-.botonGrande{
-    height: 40px; 
-    
-    width: 250px;
-    text-align: center;
-    font-size: 20px;
-}
 
-.botonGrande2{
-    height: 40px; 
-    
-    width: 250px;
-    text-align: center;
-    font-size: 20px;
-}
 
 
 
@@ -252,75 +165,7 @@ footer{
 
 }
 
-.grid{
-    display: grid;
-    grid-area: 5 5;
-    grid-template-columns: 25% 25% 25% 25% ;
-    grid-column-gap:4% ;
-    column-span: 2%;
-    grid-row-gap: 10px;
-}
 
-
-
-.caja2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 30px;
-    list-style: none ;
-    margin-top: 1%;
-    margin-bottom:0.5%;
-    margin-left: 7%;
-    margin-right: 7%;
-    line-height: 150%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 1%;
-    background-color: rgba(199, 199, 199, 0.575);
-    text-align: center;
-    flex-wrap: wrap;
-     
-}
-
-.cajon_ventas{
-    
-    
-    display: grid;
-    grid-area: 10 10;
-    grid-template-columns:  33% 33% 33% ;
-    grid-template-rows: 33vh 33vh 33vh;
-    font-size: 200%;
-    justify-items: center;
-    padding: 1%;
-   
-}
-
-.cajon_ventas2{
-    
-    
-    display: grid;
-    grid-area: 10 10;
-    grid-template-columns:  33% 33% 33% ;
-    grid-template-rows: 50vh 50vh;
-    font-size: 200%;
-    justify-items: center;
-    padding: 1%;
-   
-}
-
-.cajon_ventas_carrito{
-    
-    grid-column-start: 1;
-    display: grid;
-    grid-area: 3 3;
-    grid-template-columns:  33% 33% 33% ;
-    grid-template-rows: 50vh 50vh;
-    font-size: 200%;
-    justify-items: center;
-    padding: 1%;
-   
-}
 
 .margenes{
     margin-left: 5%;
@@ -342,8 +187,6 @@ footer{
     .encabezado{
         padding: 1%;
     }
-
-    
 
     .cajon_ventas2{
         flex-wrap: nowrap;
