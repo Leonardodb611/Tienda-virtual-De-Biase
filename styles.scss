@@ -1,0 +1,174 @@
+$fondo-header-footer: rgba(116, 116, 116, 0.582);
+$fondo-componentes: rgba(199, 199, 199, 0.575);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: $fondo-header-footer;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    text-align: center;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+
+.headerimg{
+    width: 200px;
+    
+    justify-self: start;  
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    
+    
+}
+
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?w=1380);
+    
+    
+    
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    background-color: $fondo-header-footer;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.nopoints{
+    list-style: none ;
+}
+
+
+
+.filters li{
+
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.boxfilter{
+
+    text-align: center;
+    font-size: 30px;
+    
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-width: 2px;
+    align-content: center;
+    padding-bottom: 10px;
+        
+
+}
+
+
+.bodyimg{
+    width: 65%;
+    
+}
+
+.carrito{
+    width: 20%;
+}
+
+
+
+.bodyimg1{
+    width: 70%;
+    
+}
+
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    list-style: none ;
+    margin-top: 1%;
+    margin-bottom:0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 150%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+    background-color:$fondo-componentes;
+    text-align: center;
+    
+    
+}
+
+
+
+.letraGrande{
+    font-size: 40px;
+}
+
+
+.map{
+
+    width: 90%;
+    padding-top: 1%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .letraGrande{
+        font-size: 30px;
+    }
+}
+
+
+.btn{
+    background-color: $fondo-componentes;
+    font-weight: bold;
+    color: black;
+}
+
+
+.bordes{
+    border-radius: 5%;
+    background-color: $fondo-componentes;
+}
+
+.agrandar{
+    width: 100%;
+}
