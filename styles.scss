@@ -1,5 +1,16 @@
 $fondo-header-footer: rgba(116, 116, 116, 0.582);
 $fondo-componentes: rgba(199, 199, 199, 0.575);
+$border: ("fino": 1px, "grueso": 2px);
+
+
+
+
+@mixin bordes{
+    border-left: none;
+    border-right: none;
+}
+
+
 
 *{
     margin: 0;
@@ -7,15 +18,17 @@ $fondo-componentes: rgba(199, 199, 199, 0.575);
 }
 
 header{
+    @include bordes;
     background-color: $fondo-header-footer;
     border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
+    border-width: map-get($border, "fino");
     text-align: center;
     margin-bottom: 2%;
     align-items: center;
 }
+
+
+
 
 
 .headerimg{
@@ -52,13 +65,13 @@ body{
 
 
 footer{
+    @include bordes;
     display: flex;
     justify-content: center;
     height: 4vh;
     border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
+    
+    border-width: map-get($border, "fino");
     background-color: $fondo-header-footer;
     text-align: center;
     margin-top: 3%;
@@ -66,7 +79,7 @@ footer{
 
 
 .nopoints{
-    list-style: none ;
+    list-style:none ;
 }
 
 
@@ -80,16 +93,14 @@ footer{
 
 
 .boxfilter{
-
+    @extend .letraGrande;
     text-align: center;
-    font-size: 30px;
-    
     margin-top: 10px;
     margin-bottom:10px;
     margin-left: 30%;
     margin-right: 30%;
     border-style: solid;
-    border-width: 2px;
+    border-width: map-get($border, "grueso");
     align-content: center;
     padding-bottom: 10px;
         
@@ -115,18 +126,19 @@ footer{
 
 
 .caja{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 30px;
-    list-style: none ;
+    list-style: none;
     margin-top: 1%;
     margin-bottom:0.5%;
     margin-left: 5%;
     margin-right: 5%;
     line-height: 150%;
     border-style: solid;
-    border-width: 2px;
+    border-width: map-get($border, "grueso");
     padding: 1%;
     background-color:$fondo-componentes;
     text-align: center;
